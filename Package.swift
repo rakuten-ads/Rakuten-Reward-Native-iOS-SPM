@@ -4,25 +4,18 @@
 import PackageDescription
 
 let package = Package(
-    name: "Rakuten-Reward-Native-iOS-SwiftPackage",
+    name: "RakutenRewardNativeSDK",
+    platforms: [.iOS(.v11)],
     products: [
-        // Products define the executables and libraries a package produces, and make them visible to other packages.
         .library(
-            name: "Rakuten-Reward-Native-iOS-SwiftPackage",
-            targets: ["Rakuten-Reward-Native-iOS-SwiftPackage"]),
-    ],
-    dependencies: [
-        // Dependencies declare other packages that this package depends on.
-        // .package(url: /* package url */, from: "1.0.0"),
+            name: "RakutenRewardNativeSDK",
+            targets: ["RakutenRewardNativeSDK"]),
     ],
     targets: [
-        // Targets are the basic building blocks of a package. A target can define a module or a test suite.
-        // Targets can depend on other targets in this package, and on products in packages this package depends on.
-        .target(
-            name: "Rakuten-Reward-Native-iOS-SwiftPackage",
-            dependencies: []),
-        .testTarget(
-            name: "Rakuten-Reward-Native-iOS-SwiftPackageTests",
-            dependencies: ["Rakuten-Reward-Native-iOS-SwiftPackage"]),
+        .binaryTarget(
+            name: "RakutenRewardNativeSDK",
+            url: "https://github.com/rakuten-ads/Rakuten-Reward-Native-iOS/releases/download/3.3.0/RakutenRewardNativeSDK-3.3.0-6.xcframework.zip",
+            checksum: "1e6233457f7a1f6fa925579723b50b30b6506fdcfdea257752b277e40b671583"
+        ),
     ]
 )
