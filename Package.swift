@@ -5,7 +5,7 @@ import PackageDescription
 
 let package = Package(
     name: "RakutenRewardNativeSDK",
-    platforms: [.iOS(.v11)],
+    platforms: [.iOS(.v12)],
     products: [
         .library(
             name: "RakutenRewardNativeSDK",
@@ -14,8 +14,8 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "RakutenRewardNativeSDK",
-            url: "https://github.com/rakuten-ads/Rakuten-Reward-Native-iOS/releases/download/6.2.0/RakutenRewardNativeSDK-6.2.0.xcframework.zip",
-            checksum: "7de71baf099f5d4da83bca0e9310f451cc8e4be3ec355b632998e5fd48c309b4"
+            url: "https://github.com/rakuten-ads/Rakuten-Reward-Native-iOS/releases/download/6.3.0/RakutenRewardNativeSDK-6.3.0.xcframework.zip",
+            checksum: "8e90e61ad45eb03971208f002c94f6adc40ba25810226654d76cd910709f443f"
         ),
     ]
 )
