@@ -15,12 +15,12 @@ let package = Package(
         .binaryTarget(
             name: "RakutenRewardNativeSDK",
             url: "https://github.com/rakuten-ads/Rakuten-Reward-Native-iOS/releases/download/8.2.0/RakutenRewardNativeSDK.xcframework.zip",
-            checksum: "ecccdcc1814e928d02f0fe7317e7a0a56a7466b2d8da2fe9dd4257343e8c13f7"
+            checksum: "a00584e5b68d08413d62bac6d31a58b2aef71fedb1133d026c8efe64777a49a6"
         ),
         .binaryTarget(
             name: "ScreenSDKCore",
             url: "https://github.com/rakuten-ads/Rakuten-Reward-Native-iOS/releases/download/8.2.0/ScreenSDKCore.xcframework.zip",
-            checksum: "3c73d68fb138703f17ec6abf5efc90b2008e443ab770e99f5dcb70138fc5c195"
+            checksum: "c5f3d5d3380372b9e1b0b952313ceee6c337a2e51e9f5d440f4bf1b6d33ee155"
         ),
     ]
 )
