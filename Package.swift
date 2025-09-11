@@ -14,18 +14,18 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "RakutenRewardNativeSDK",
-            url: "https://github.com/rakuten-ads/Rakuten-Reward-Native-iOS/releases/download/8.6.0/RakutenRewardNativeSDK.xcframework.zip",
-            checksum: "73777b9842ba22874a26bfb64ca7d10e9895165243dcba9c2cf2ee09f87756fb"
+            url: "https://github.com/rakuten-ads/Rakuten-Reward-Native-iOS/releases/download/8.7.0/RakutenRewardNativeSDK.xcframework.zip",
+            checksum: "bbfdb1f40585bb172e21e1e9cc4ba17ef0aea007712989d46fb9eea306432b87"
         ),
         .binaryTarget(
             name: "ScreenSDKCore",
-            url: "https://github.com/rakuten-ads/Rakuten-Reward-Native-iOS/releases/download/8.6.0/ScreenSDKCore.xcframework.zip",
-            checksum: "0c009eefb6773223bc922e269ff56ee0fd197ec677d064bdd30f0d97c4a33398"
+            url: "https://github.com/rakuten-ads/Rakuten-Reward-Native-iOS/releases/download/8.7.0/ScreenSDKCore.xcframework.zip",
+            checksum: "1788b1f8ef438bf8cf8f0f07335dd95d31fafd2da1279bbfd6d5c61d51ec4c97"
         ),
         .binaryTarget(
             name: "ScreenSDK",
-            url: "https://github.com/rakuten-ads/Rakuten-Reward-Native-iOS/releases/download/8.6.0/ScreenSDK.xcframework.zip",
-            checksum: "e350f725dd9567c8fd0cdcbc80c7adf56a254f68f1706d79ed1372f63b2ccd87"
+            url: "https://github.com/rakuten-ads/Rakuten-Reward-Native-iOS/releases/download/8.7.0/ScreenSDK.xcframework.zip",
+            checksum: "7824def022425f2493abad7c35249f108ae032424bfaa3a55132183c2c1c79b8"
         ),
     ]
 )
