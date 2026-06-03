@@ -14,11 +14,6 @@ let package = Package(
             name: "RakutenRewardAdMob",
             targets: ["RakutenRewardAdMob"]),
     ],
-    dependencies: [
-        .package(
-            url: "https://github.com/googleads/swift-package-manager-google-mobile-ads.git",
-            from: "12.14.0"),
-    ],
     targets: [
         .binaryTarget(
             name: "RakutenRewardNativeSDK",
@@ -36,19 +31,9 @@ let package = Package(
             checksum: "fbc9d38d6fa2fdf24eba698a3ad8d52274465c83bf54d8edbce520f0f1ded0f6"
         ),
         .binaryTarget(
-            name: "RakutenRewardAdMobBinary",
+            name: "RakutenRewardAdMob",
             url: "https://github.com/rakuten-ads/Rakuten-Reward-Native-iOS/releases/download/0.8.1-beta1/RakutenRewardAdMob.xcframework.zip",
             checksum: "dda355dd99b8393b80602876f27a50db0d3980d5e3693960dd4e218d2ebed3e4"
-        ),
-        .target(
-            name: "RakutenRewardAdMob",
-            dependencies: [
-                "RakutenRewardAdMobBinary",
-                "RakutenRewardNativeSDK",
-                .product(name: "GoogleMobileAds",
-                         package: "swift-package-manager-google-mobile-ads"),
-            ],
-            path: "Sources/RakutenRewardAdMob"
         ),
     ]
 )
