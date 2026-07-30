@@ -10,9 +10,6 @@ let package = Package(
         .library(
             name: "RakutenRewardNativeSDK",
             targets: ["RakutenRewardNativeSDK", "ScreenSDKCore", "ScreenSDK"]),
-        .library(
-            name: "RakutenRewardAdMob",
-            targets: ["RakutenRewardAdMob"]),
     ],
     targets: [
         .binaryTarget(
