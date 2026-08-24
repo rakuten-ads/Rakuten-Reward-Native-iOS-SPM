@@ -10,22 +10,30 @@ let package = Package(
         .library(
             name: "RakutenRewardNativeSDK",
             targets: ["RakutenRewardNativeSDK", "ScreenSDKCore", "ScreenSDK"]),
+        .library(
+            name: "RakutenRewardAdMob",
+            targets: ["RakutenRewardAdMob"]),
     ],
     targets: [
         .binaryTarget(
             name: "RakutenRewardNativeSDK",
-            url: "https://github.com/rakuten-ads/Rakuten-Reward-Native-iOS/releases/download/9.2.1/RakutenRewardNativeSDK.xcframework.zip",
-            checksum: "373473734e6e294b2370458658471df97a9fa23616575abdf7b86d025da60b2e"
+            url: "https://github.com/rakuten-ads/Rakuten-Reward-Native-iOS/releases/download/9.3.0/RakutenRewardNativeSDK.xcframework.zip",
+            checksum: "188a594a885756e7446c799f50adddbac5c9c43108b8d3b756ef20fec3411eda"
         ),
         .binaryTarget(
             name: "ScreenSDKCore",
-            url: "https://github.com/rakuten-ads/Rakuten-Reward-Native-iOS/releases/download/9.2.1/ScreenSDKCore.xcframework.zip",
-            checksum: "d7054449526d5a0963158376345a97ecdff03c4eee084b4b12c0bdb5ae79e48e"
+            url: "https://github.com/rakuten-ads/Rakuten-Reward-Native-iOS/releases/download/9.3.0/ScreenSDKCore.xcframework.zip",
+            checksum: "48f7133a11c824c3273dfbf2b2fd5e1e7cc070870c41997dc5cb32ad47b677af"
         ),
         .binaryTarget(
             name: "ScreenSDK",
-            url: "https://github.com/rakuten-ads/Rakuten-Reward-Native-iOS/releases/download/9.2.1/ScreenSDK.xcframework.zip",
-            checksum: "0fe03851e894603892d8a4caa6ca69d2dc4b908c6e45dca022adb060bf1b75fc"
-        )
+            url: "https://github.com/rakuten-ads/Rakuten-Reward-Native-iOS/releases/download/9.3.0/ScreenSDK.xcframework.zip",
+            checksum: "b2c7dd7a75e938d2d7129b4ba248c579ca77ae5106dfc6fbf3b66cc0667ef6da"
+        ),
+        .binaryTarget(
+            name: "RakutenRewardAdMob",
+            url: "https://github.com/rakuten-ads/Rakuten-Reward-Native-iOS/releases/download/9.3.0/RakutenRewardAdMob.xcframework.zip",
+            checksum: "d8b5c701b6107ff1d2ec479c296ccbfd30ba90fd92c7167ce8595b161316bc70"
+        ),
     ]
 )
