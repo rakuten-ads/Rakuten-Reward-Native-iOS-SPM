@@ -17,23 +17,23 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "RakutenRewardNativeSDK",
-            url: "https://github.com/rakuten-ads/Rakuten-Reward-Native-iOS/releases/download/9.3.0/RakutenRewardNativeSDK.xcframework.zip",
-            checksum: "188a594a885756e7446c799f50adddbac5c9c43108b8d3b756ef20fec3411eda"
+            url: "https://github.com/rakuten-ads/Rakuten-Reward-Native-iOS/releases/download/9.3.1/RakutenRewardNativeSDK.xcframework.zip",
+            checksum: "7a8164bbdcfa70a88fc2037186beae7a96f5a7df86e0171b8493aab45c3a94cb"
         ),
         .binaryTarget(
             name: "ScreenSDKCore",
-            url: "https://github.com/rakuten-ads/Rakuten-Reward-Native-iOS/releases/download/9.3.0/ScreenSDKCore.xcframework.zip",
-            checksum: "48f7133a11c824c3273dfbf2b2fd5e1e7cc070870c41997dc5cb32ad47b677af"
+            url: "https://github.com/rakuten-ads/Rakuten-Reward-Native-iOS/releases/download/9.3.1/ScreenSDKCore.xcframework.zip",
+            checksum: "8bac576d117bdeb807e1b4253bdf8c306d21d859ec7dcdb440d468c568ef98b6"
         ),
         .binaryTarget(
             name: "ScreenSDK",
-            url: "https://github.com/rakuten-ads/Rakuten-Reward-Native-iOS/releases/download/9.3.0/ScreenSDK.xcframework.zip",
-            checksum: "b2c7dd7a75e938d2d7129b4ba248c579ca77ae5106dfc6fbf3b66cc0667ef6da"
+            url: "https://github.com/rakuten-ads/Rakuten-Reward-Native-iOS/releases/download/9.3.1/ScreenSDK.xcframework.zip",
+            checksum: "f86b0fc067c228de1a952591d4d4d255fe5cba5b726fd61b40f3ac90093528b1"
         ),
         .binaryTarget(
             name: "RakutenRewardAdMob",
-            url: "https://github.com/rakuten-ads/Rakuten-Reward-Native-iOS/releases/download/9.3.0/RakutenRewardAdMob.xcframework.zip",
-            checksum: "d8b5c701b6107ff1d2ec479c296ccbfd30ba90fd92c7167ce8595b161316bc70"
+            url: "https://github.com/rakuten-ads/Rakuten-Reward-Native-iOS/releases/download/9.3.1/RakutenRewardAdMob.xcframework.zip",
+            checksum: "f9693ca728de929c4b8b0f752d985fe73a985922a0643df880fb883412c70bb2"
         ),
     ]
 )
